@@ -14,8 +14,8 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: 'Parshwa Gandhi | CS Grad Student & ML Engineer',
-  description: 'Portfolio of Parshwa Gandhi - Computer Science Master\'s Student at George Mason University specializing in ML, LLMs, and Trust & Safety.',
+  title: 'Parshwa Gandhi | Data Engineer & Analytics Professional',
+  description: 'Portfolio of Parshwa Gandhi - CS Master\'s Student at George Mason University specializing in Data Engineering, ETL Pipelines, Cloud Analytics, and BI Solutions.',
   generator: 'v0.app',
   keywords: ['Machine Learning', 'LLM', 'Trust & Safety', 'Data Engineering', 'Computer Science'],
   authors: [{ name: 'Parshwa Gandhi' }],
