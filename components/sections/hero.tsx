@@ -40,7 +40,7 @@ export function HeroSection() {
               className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-balance leading-tight"
               style={{ color: "#1a1a2e" }}
             >
-              I&apos;m Parshwa Gandhi, Building Scalable Data Pipelines & Analytics Solutions.
+              I&apos;m Parshwa Gandhi. I Build Data Pipelines And Turn The Data Into Decisions.
             </motion.h1>
 
             {/* Decorative underline */}
@@ -59,7 +59,7 @@ export function HeroSection() {
               className="text-lg md:text-xl mb-8 max-w-xl lg:max-w-none leading-relaxed"
               style={{ color: "#4a4a5a" }}
             >
-              CS Master&apos;s candidate at George Mason University, building end-to-end data pipelines, cloud data warehouses, and analytics solutions using Python, SQL, Airflow, dbt, Snowflake, and BigQuery.
+              MS Computer Science candidate at George Mason University (May 2026). I build data pipelines with Python, SQL, Airflow, Snowflake, dbt and ship analytics dashboards in Tableau and Power BI that answer the business questions at the end of them.
             </motion.p>
 
             <motion.div
@@ -162,7 +162,7 @@ export function HeroSection() {
                   <circle cx="50" cy="50" r="48" fill="#F5F2EB" stroke="#0D9488" strokeWidth="2" />
                   <text className="text-[9px] font-bold uppercase tracking-[0.15em]" fill="#0D9488">
                     <textPath href="#circlePath" startOffset="0%">
-                      OPEN TO OPPORTUNITIES • OPEN TO OPPORTUNITIES •
+                      OPEN TO OPPORTUNITIES 
                     </textPath>
                   </text>
                 </svg>

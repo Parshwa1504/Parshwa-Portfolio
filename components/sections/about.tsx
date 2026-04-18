@@ -7,8 +7,8 @@ import { GraduationCap, MapPin, Briefcase, Star } from "lucide-react"
 
 const stats = [
   { value: "3.37/4.0", label: "GPA at GMU", color: "#0D9488" },
-  { value: "2+", label: "Internships", color: "#C2703E" },
-  { value: "15+", label: "Projects", color: "#0D9488" },
+  { value: "2", label: "Internships", color: "#C2703E" },
+  { value: "19", label: "Projects", color: "#0D9488" },
   { value: "2", label: "Degrees", color: "#C2703E" },
 ]
 
@@ -24,7 +24,7 @@ const infoCards = [
   {
     icon: Briefcase,
     title: "Focus",
-    items: ["Data Engineering", "Data Analytics" , "Machine Learning & LLMs"],
+    items: ["Data Analytics", "Data Engineering", "Machine Learning & LLMs"],
   },
   {
     icon: Star,
@@ -142,35 +142,38 @@ export function AboutSection() {
               className="lg:col-span-7 space-y-6"
             >
             <p
-  className="text-base md:text-lg leading-relaxed"
+  className="text-base md:text-lg leading-relaxed text-justify"
   style={{ color: "#4a4a5a" }}
 >
   I&apos;m a graduate student in{" "}
   <strong style={{ color: "#1a1a2e" }}>
     Computer Science at George Mason University
   </strong>{" "}
-  with a background in{" "}
-  <strong style={{ color: "#1a1a2e" }}>Computer Engineering</strong>,
-  focused on designing end-to-end{" "}
-  <strong style={{ color: "#1a1a2e" }}>ETL/ELT pipelines</strong>,{" "}
-  <strong style={{ color: "#1a1a2e" }}>cloud data warehouses</strong>, and{" "}
-  <strong style={{ color: "#1a1a2e" }}>real-time streaming architectures</strong>.
-  I&apos;ve worked with Python, SQL, Airflow, dbt, Snowflake, BigQuery, and Spark
-  to process millions of records and deliver actionable analytics solutions
-  across AWS and GCP environments.
+  (MS, May 2026), with a background in{" "}
+  <strong style={{ color: "#1a1a2e" }}>Computer Engineering</strong>.
+  I sit in the overlap between{" "}
+  <strong style={{ color: "#1a1a2e" }}>Data Analytics</strong> and{" "}
+  <strong style={{ color: "#1a1a2e" }}>Data Engineering.</strong> I design
+  end-to-end ETL/ELT pipelines using Python, SQL, Airflow, dbt, Snowflake,
+  BigQuery, and Spark, and I ship the{" "}
+  <strong style={{ color: "#1a1a2e" }}>Tableau and Power BI dashboards</strong>{" "}
+  that turn those pipelines into real business decisions. I&apos;ve processed{" "}
+  <strong style={{ color: "#1a1a2e" }}>10M+ records</strong> across AWS and GCP
+  environments and delivered analytics work that quantified over{" "}
+  <strong style={{ color: "#1a1a2e" }}>$500K in business insights</strong>.
 </p>
 <p
-  className="text-base md:text-lg leading-relaxed"
+  className="text-base md:text-lg leading-relaxed text-justify"
   style={{ color: "#4a4a5a" }}
 >
-  I&apos;m naturally{" "}
-  <strong style={{ color: "#1a1a2e" }}>curious and detail-oriented</strong>,
-  and I love solving problems where{" "}
-  <strong style={{ color: "#1a1a2e" }}>data engineering and analytics</strong> meet.
-  Outside of work, you&apos;ll usually find me exploring new places,
-  following <strong style={{ color: "#1a1a2e" }}>Soccer</strong>, and
-  staying up to date with the latest in{" "}
-  <strong style={{ color: "#1a1a2e" }}>cloud and data technologies</strong>.
+  I&apos;m the person who finds the{" "}
+  <strong style={{ color: "#1a1a2e" }}>0.0003% edge case </strong>that breaks
+  the pipeline and the person who can explain why it matters to a
+  stakeholder who doesn&apos;t care about pipelines. Outside of work,
+  I&apos;m usually watching{" "}
+  <strong style={{ color: "#1a1a2e" }}>Real Madrid</strong> play ,
+  exploring DC-area hiking trails, or {" "}
+    <strong style={{ color: "#1a1a2e" }}>enjoying some good food</strong>.
 </p>
             </motion.div>
 

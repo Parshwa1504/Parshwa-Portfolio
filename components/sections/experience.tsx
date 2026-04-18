@@ -12,9 +12,9 @@ const workExperience = [
     location: "East Hartford, CT",
     period: "Jul 2025 - Sep 2025",
     bullets: [
-      "Architected a modular batch and streaming data ingestion pipeline in Python to parse, transform, and load real-time unstructured data into downstream analytics workflows, supporting high-throughput processing across multiple data formats.",
-      "Streamlined end-to-end analytics pipeline infrastructure through systematic performance profiling, reducing average query latency by 50% and significantly improving data throughput for internal reporting and analytics consumers.",
-      "Implemented automated data quality checks and structured output validation across versioned datasets using CI/CD workflows, improving pipeline reliability by 20% and ensuring reproducibility of analytical results.",
+      "Built a modular batch + streaming ingestion pipeline in Python for LLM-based email summarization using Mistral, supporting real-time unstructured data across multiple formats and saving the team a significant amount of time in their daily work.",
+      "Cut average query latency by 50% across internal analytics and reporting pipelines by benchmarking GPU vs CPU deployment strategies improving throughput for downstream dashboards without increasing infrastructure cost.",
+      "Lifted object detection accuracy by 20% (YOLO + Faster R-CNN) by introducing structured outputs, versioned datasets, and CI/CD-backed reproducibility turning experimental scripts into a pipeline any teammate could rerun.",
     ],
   },
   {
@@ -23,9 +23,9 @@ const workExperience = [
     location: "Surat, India",
     period: "Dec 2023 - May 2024",
     bullets: [
-      "Designed and deployed a scalable ETL pipeline in Python to automate data ingestion, transformation, and loading from multiple sources into a centralized data store, reducing data errors by 30% and enabling real-time analytics for operational reporting.",
-      "Built a real-time analytics and monitoring dashboard using Redis, Streamlit, and Pandas, delivering instant visibility into key operational metrics and supporting data-driven decision making across business units.",
-      "Engineered automated reporting pipelines using Python for trend analysis and KPI tracking, reducing manual reporting time by 40%, and deployed the solution on AWS (EC2, S3) for scalable, cloud-native data persistence and cross-departmental access.",
+      "Automated multi-source data ingestion and transformation in Python, reducing data errors by 30% and enabling real-time operational reporting that replaced manual data consolidation across departments.",
+      "Built a real-time KPI monitoring dashboard using Streamlit and pandas, delivering instant visibility into key operational metrics and directly supporting data-driven decision making for business stakeholders across units.",
+      "Engineered automated reporting pipelines in Python for trend analysis and KPI tracking, cutting manual reporting time by 40% and deployed on AWS (EC2, S3) for scalable, cross-departmental access to business insights.",
     ],
   },
 ]
