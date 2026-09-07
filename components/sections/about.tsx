@@ -172,7 +172,7 @@ export function AboutSection() {
   stakeholder who doesn&apos;t care about pipelines. Outside of work,
   I&apos;m usually watching{" "}
   <strong style={{ color: "#1a1a2e" }}>Real Madrid</strong> play ,
-  exploring DC-area hiking trails, or {" "}
+  exploring hiking trails, or {" "}
     <strong style={{ color: "#1a1a2e" }}>enjoying some good food</strong>.
 </p>
             </motion.div>
