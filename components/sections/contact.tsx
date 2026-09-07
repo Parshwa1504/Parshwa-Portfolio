@@ -138,7 +138,7 @@ export function ContactSection() {
 
               {/* Download Resume button like Smit's */}
               <a
-                href="https://drive.google.com/file/d/1nllSI9vdyRSFHJ3RGFrHSLVC9RsAKNQn/view?usp=sharing"
+                href="https://drive.google.com/file/d/12pAqRpebwcYX0ldOxQnYshFTpdKdjA3Y/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-8 py-4 rounded-xl text-white font-semibold text-lg transition-opacity hover:opacity-90"
