@@ -7,7 +7,7 @@ import { Briefcase, GraduationCap, MapPin, Calendar, ChevronDown } from "lucide-
 
 const workExperience = [
   {
-    title: "ML Product Engineer Intern",
+    title: "Analytics Engineer Intern",
     company: "Aorbis Inc.",
     location: "East Hartford, CT",
     period: "Jul 2025 - Sep 2025",
@@ -18,7 +18,7 @@ const workExperience = [
     ],
   },
   {
-    title: "Software Developer Intern",
+    title: "Data Analyst Intern",
     company: "Xcellence-IT",
     location: "Surat, India",
     period: "Dec 2023 - May 2024",
